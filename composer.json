@@ -1,0 +1,17 @@
+{
+	"name": "php-actions/example-phpstan",
+	"description": "Example project using php-actions/phpstan",
+
+	"require-dev": {
+		"ext-curl": "*",
+		"ext-dom": "*",
+		"ext-json": "*",
+		"ext-sqlite3": "*",
+		"phpstan/phpstan": ">=0.12.80"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "src"
+		}
+	}
+}
