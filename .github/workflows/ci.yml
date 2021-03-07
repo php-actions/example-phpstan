@@ -8,3 +8,5 @@ jobs:
     steps:
       - name: PHPStan Static Analysis
         uses: php-actions/phpstan@v2
+        with:
+          path: src/
