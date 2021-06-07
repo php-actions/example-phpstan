@@ -10,6 +10,6 @@ jobs:
       - uses: php-actions/composer@v5
 
       - name: PHPStan Static Analysis
-        uses: php-actions/phpstan@v2
+        uses: php-actions/phpstan@master
         with:
           path: src/
