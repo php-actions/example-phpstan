@@ -5,7 +5,7 @@ This is a trivial project that holds only simple example functionality: a greete
 
 Check out the [**Actions tab** in the Github repository][actions-tab] to see the past actions workflows and their outputs.
 
-The file at `.github/workflows/ci.yml` shows how to use [php-actions/phpstan][action-link] - take note of the `uses: php-actions/phpstan@v2` line.
+The file at `.github/workflows/ci.yml` shows how to use [php-actions/phpstan][action-link] - take note of the `uses: php-actions/phpstan@v3` line.
 
 Versions of PHPStan and all options are available to configure. Please see the [php-actions/phpstan documentation][action-link] for more information!
 
