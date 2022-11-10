@@ -10,6 +10,8 @@ jobs:
       - uses: php-actions/composer@v6
 
       - name: Get custom PHAR
+        env:
+          - test: test
         run: |
           curl --silent -H "User-agent: cURL (https://github.com/php-actions)" -L \
           "https://www.getrelease.download/phpstan/phpstan/1.8.11/phar" > custom-phpstan.phar
