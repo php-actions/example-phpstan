@@ -19,3 +19,4 @@ jobs:
         with:
           path: src/ inc/
           vendored_phpstan_path: custom-phpstan.phar
+          command: version
