@@ -15,7 +15,7 @@ jobs:
           "https://www.getrelease.download/phpstan/phpstan/1.8.11/phar" > custom-phpstan.phar
 
       - name: PHPStan Static Analysis
-        uses: php-actions/phpstan@master
+        uses: php-actions/phpstan@v3
         with:
           path: src/ inc/
           vendored_phpstan_path: custom-phpstan.phar
